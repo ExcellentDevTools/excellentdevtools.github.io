@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>水平书签分割线</title>
+    <link rel="icon" href="/assets/images/icon-h.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./assets/style/main.css"/>
+
+</head>
+
+<body>
+<div id="container">
+    <div id="content">
+        <div id="h">
+            <div class="form">
+                <span>水平分割线标题：</span> <input id="sep-title" placeholder="分割线"/>
+            </div>
+
+            <p>
+                <a id="sep-horizontal" href="./?direction=h" title="sep-horizontal"></a>
+            </p>
+
+            <p>
+                拖动上方分割线到<span class="target"> 书签文件夹 </span>即可
+            </p>
+
+            <p>
+                <button id="switchV">切换垂直分割线</button>
+            </p>
+        </div>
+
+        <div id="v" style="display: none">
+            <div class="form">
+                <span>垂直分割线</span>
+            </div>
+
+            <p>
+                <a id="sep-vertical" href="./?direction=v" title="sep-vertical"></a>
+            </p>
+
+            <p>
+                拖动上方分割线到<span class="target"> 书签栏 </span>相应位置即可
+            </p>
+
+            <p>
+                <button id="switchH">切换水平分割线</button>
+            </p>
+        </div>
+
+
+        <div class="footer">
+            <p>
+                made by <a href="http://excellentdavid.net" target="_blank">David</a> 2023
+            </p>
+        </div>
+
+
+    </div>
+</div>
+<script src="./assets/scripts/main.js"></script>
+</body>
+
+</html>
